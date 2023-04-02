@@ -1,0 +1,13 @@
+2023-03-27 20:30:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found; SQL statement:
+insert into usuario (id, cpf, email, nome, password, username) values (default, ?, ?, ?, ?, ?) [42102-214]
+2023-03-27 21:07:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USUARIO \000d\000a\000d\000aDELETE [*]FROM usuario WHERE id = 1"; SQL statement:
+SELECT * FROM USUARIO 
+
+DELETE FROM usuario WHERE id = 1 [42000-214]
+2023-03-27 21:07:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USUARIO \000d\000a\000d\000aDELETE [*]FROM usuario WHERE id = 1"; SQL statement:
+SELECT * FROM USUARIO 
+
+DELETE FROM usuario WHERE id = 1 [42000-214]

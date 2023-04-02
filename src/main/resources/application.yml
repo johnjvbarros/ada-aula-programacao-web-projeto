@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: password
+    url: jdbc:h2:file:D:\Arquivos\Coding\Java\Web II\spring-boot-h2-db
+    username: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    # hibernate:
+      # ddl-auto: create
